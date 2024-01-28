@@ -20,6 +20,7 @@ export default function Banner() {
                     className={styles.circuloColorido}
                     src={circuloColorido}
                     aria-hidden={true}
+                    alt="Foto do Antônio Evaldo sorrindo"
                 />
 
                 <img
