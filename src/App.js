@@ -3,6 +3,7 @@ import Inicio from "./paginas/inicio";
 import Sobre from "./paginas/sobre";
 import Menu from './componentes/menu';
 import PaginaPadrao from './componentes/PaginaPadrao';
+import Rodape from './componentes/Rodape';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="*" element={"Pagina não encontrada"} />
 
       </Routes>
+      <Rodape/>
     </BrowserRouter>
   )
 }
