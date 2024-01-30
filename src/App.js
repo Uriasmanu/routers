@@ -5,7 +5,7 @@ import Menu from './componentes/menu';
 import PaginaPadrao from './componentes/PaginaPadrao';
 import Rodape from './componentes/Rodape';
 import Post from './paginas/Post/Post';
-
+import NaoEncontrada from "./paginas/NaoEncontrada";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="posts/:id" element={<Post />} />
         </Route>
 
-        <Route path="*" element={"Pagina não encontrada"} />
+        <Route path="*" element={<NaoEncontrada/>} />
 
       </Routes>
       <Rodape/>
